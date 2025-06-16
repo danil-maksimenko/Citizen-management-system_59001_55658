@@ -77,8 +77,8 @@ Domyślną bazą danych jest **MySQL 8** (uruchamiana lokalnie lub przez Docke
 ### 1. Klonowanie repozytorium
 
 ```bash
-git clone https://github.com/twoja‑nazwa‑uzytkownika/civio_project.git
-cd civio_project
+git clone https://github.com/danil-maksimenko/Citizen-management-system_59001_55658
+cd Citizen-management-system_59001_55658
 ```
 
 ### 2. Uruchomienie bazy danych
