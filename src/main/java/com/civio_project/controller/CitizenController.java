@@ -1,6 +1,7 @@
 package com.civio_project.controller;
 
 import com.civio_project.entity.Citizen;
+import com.civio_project.controller.request.CitizenUpdateRequestDTO;
 import com.civio_project.service.CitizenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -39,8 +40,9 @@ public class CitizenController {
     }
 
     @PutMapping("/passport/{passportNumber}")
-    public ResponseEntity<Citizen> updateCitizen(@PathVariable String passportNumber, @RequestBody Citizen citizen) {
-        Citizen updatedCitizen = citizenService.updateByPassportNumber(passportNumber, citizen);
+    public ResponseEntity<Citizen> updateCitizen(@PathVariable String passportNumber, @RequestBody CitizenUpdateRequestDTO citizenDetailsDTO) {
+
+        Citizen updatedCitizen = citizenService.updateByPassportNumber(passportNumber, citizenDetailsDTO);
         return ResponseEntity.ok(updatedCitizen);
     }
 
