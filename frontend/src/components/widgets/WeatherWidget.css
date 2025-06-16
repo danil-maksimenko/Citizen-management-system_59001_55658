@@ -1,0 +1,27 @@
+.weather-widget {
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #0d47a1;
+    border: 1px solid #bbdefb;
+    text-align: center;
+}
+.weather-widget h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.weather-icon {
+    font-size: 1.8rem;
+}
+.weather-temp {
+    font-weight: 600;
+}

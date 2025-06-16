@@ -1,0 +1,21 @@
+{
+  "name": "civio-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.2.14",
+    "@rsbuild/plugin-react": "^1.1.1",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open --port 3000"
+  }
+}

@@ -1,0 +1,44 @@
+.widget-container {
+    background-color: #eef2f7;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #334;
+    border: 1px solid #dce4ee;
+}
+
+.widget-container h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #0d47a1;
+    text-align: center;
+}
+
+.holidays-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.holidays-list li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    padding: 6px 0;
+    border-bottom: 1px solid #dce4ee;
+}
+
+.holidays-list li:last-child {
+    border-bottom: none;
+}
+
+.holiday-date {
+    font-weight: 500;
+    color: #3d5afe;
+}
+
+.holiday-name {
+    color: #455a64;
+}
